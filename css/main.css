@@ -10,9 +10,16 @@ html body {
   height: 100vh; }
 
 nav {
+  height: 64px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
   background-color: white; }
   nav .nav-wrapper a {
     color: black; }
+
+.nav-up {
+  top: -64px; }
 
 .main-section {
   background-image: url("../img/hero.jpeg");
@@ -22,6 +29,7 @@ nav {
   height: 90vh; }
 
 .about {
+  display: block;
   height: 100%;
   background-color: #4450FF; }
 
