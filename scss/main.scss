@@ -12,5 +12,16 @@ html body {
 }
 
 nav {
-	background-color: #4450FF;
+	background-color: white;
+	 .nav-wrapper a {
+		 color: black;
+	}
+}
+
+.main-section {
+	background-image: url('../img/hero.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+	height: 90vh;
 }

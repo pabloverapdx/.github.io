@@ -10,6 +10,15 @@ html body {
   height: 100vh; }
 
 nav {
-  background-color: #4450FF; }
+  background-color: white; }
+  nav .nav-wrapper a {
+    color: black; }
+
+.main-section {
+  background-image: url("../img/hero.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh; }
 
 /*# sourceMappingURL=main.css.map */
