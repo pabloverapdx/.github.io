@@ -1,12 +1,17 @@
-// Collapsable navbar 
+
+// Collapsable navbar
 $(document).ready(function(){
-	$(".button-collapse").sideNav();
+	$('.button-collapse').sideNav({
+    menuWidth: 300,
+    edge: 'left',
+    closeOnClick: true,
+	});
 });
 
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
-var delta = 5;
+var delta = 2;
 var navbarHeight = $('nav').outerHeight();
 
 $(window).scroll(function(event){
@@ -18,7 +23,7 @@ setInterval(function() {
         hasScrolled();
         didScroll = false;
     }
-}, 250);
+}, 150);
 
 function hasScrolled() {
     var st = $(this).scrollTop();
@@ -36,4 +41,4 @@ function hasScrolled() {
         }
     }
     lastScrollTop = st;
-}
+};
