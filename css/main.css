@@ -6,7 +6,6 @@
   box-sizing: border-box; }
 
 html body {
-  width: 100vw;
   height: 100vh; }
 
 nav {
@@ -28,6 +27,9 @@ nav {
   background-repeat: no-repeat;
   height: 90vh; }
 
+.x {
+  font-size: 32px; }
+
 .about {
   display: block;
   height: 100%;
@@ -39,10 +41,13 @@ nav {
 
 .designs {
   height: 100%;
-  background-color: #F0FFFF; }
+  background-color: #37ADFF; }
 
 .contact {
   height: 100%;
-  background-color: #37ADFF; }
+  background-color: white; }
+  .contact .contact-row {
+    margin-top: 15vh;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

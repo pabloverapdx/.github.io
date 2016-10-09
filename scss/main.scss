@@ -7,7 +7,7 @@
 }
 
 html body {
-	width: 100vw;
+	// width: 100vw;
 	height: 100vh;
 }
 
@@ -17,7 +17,7 @@ nav {
 	top: 0;
 	transition: top 0.2s ease-in-out;
 	background-color: white;
-	 .nav-wrapper a {
+	.nav-wrapper a {
 		 color: black;
 	}
 }
@@ -34,11 +34,17 @@ nav {
 	height: 90vh;
 }
 
+.x {
+	font-size: 32px;
+}
+
+
 .about {
 	display: block;
 	height: 100%;
 	background-color: #4450FF;
 }
+
 
 .projects {
 	height: 100%;
@@ -47,10 +53,14 @@ nav {
 
 .designs {
 	height: 100%;
-	background-color: #F0FFFF;
+	background-color: #37ADFF;
 }
 
 .contact {
 	height: 100%;
-	background-color: #37ADFF;
+	background-color: white;;
+		.contact-row {
+			margin-top: 15vh;
+			text-align: center;
+	}
 }

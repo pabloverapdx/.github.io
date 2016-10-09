@@ -2,7 +2,6 @@
 // Collapsable navbar
 $(document).ready(function(){
 	$('.button-collapse').sideNav({
-    menuWidth: 300,
     edge: 'left',
     closeOnClick: true,
 	});
@@ -11,7 +10,7 @@ $(document).ready(function(){
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
-var delta = 2;
+var delta = 3;
 var navbarHeight = $('nav').outerHeight();
 
 $(window).scroll(function(event){
@@ -23,7 +22,7 @@ setInterval(function() {
         hasScrolled();
         didScroll = false;
     }
-}, 150);
+}, 350);
 
 function hasScrolled() {
     var st = $(this).scrollTop();
