@@ -29,9 +29,6 @@ nav {
   height: 100vh;
   background-color: #4450FF; }
 
-.col {
-  border: 1px solid magenta; }
-
 img {
   max-height: 30vw; }
   @media screen and (max-width: 500px) {
@@ -39,10 +36,12 @@ img {
       max-height: 35vh; } }
 
 .designs {
-  height: 400%;
+  width: 100%;
+  height: 100vh;
   background-color: #37ADFF; }
 
 .contact {
+  width: 100%;
   height: 100%;
   background-color: white; }
   .contact .contact-row {
