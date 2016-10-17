@@ -1,21 +1,14 @@
-// *,
-// *::before,
-// *::after {
-// 	-webkit-box-sizing: border-box;
-// 	-moz-box-sizing: border-box;
-// 	box-sizing: border-box;
-// }
-
-html body {
+html, body {
 	// width: 100vw;
 	height: 100vh;
+	background-color: white;
 }
 
 nav {
 	height: 64px;
 	position: fixed;
 	top: 0;
-	transition: top 0.2s ease-in-out;
+	transition: top 2.3s ease-in-out;
 	background-color: white;
 	.nav-wrapper a {
 		 color: black;
@@ -26,66 +19,90 @@ nav {
   top: -64px;
 }
 
+.logo {
+	max-width: 20%;
+}
 // Main Section
 
 .main-section {
-	background-image: url('../img/hero.jpeg');
-  background-position: center;
+	background-image: url('../img/sky.jpeg');
+  background-position: right;
   background-size: cover;
-  background-repeat: no-repeat;
-	opacity: 0.9;
+  // background-repeat: no-repeat;
+	// opacity: 0.9;
 	height: 100vh;
-}
-
-.x {
-	font-size: 32px;
-}
-
-// Project Section
-
-.projects {
 	width: 100%;
-	height: 100vh;
-	background-color: #4450FF;
+	background-color: black;
 }
 
-img {
-	max-height: 30vw;
+//projects-details Section
+.html-css {
+	padding-top: 74px;
+	width: 100%;
+	min-height: 100vh;
+	// background-color: #4450FF;
+	overflow: hidden;
+}
+
+.project-details {
+	max-width: 60%;
+	height: auto;
 	@media screen and (max-width: 500px) {
-		max-height: 35vh;
+		max-width: 100%;
 	}
 }
 
-// Design Section
-.designs {
-	width: 100%;
-	height: 100vh;
-	background-color: #37ADFF;
+#project1, #project2 {
+	display: none;
 }
 
+.thumbnail-item {
+	margin-bottom: 5px;
+}
+// Design Section
 
+.designs {
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 74px;
+	// background-color: #37ADFF;
+	overflow: hidden;
+}
 
 // Contact Section
 
 .contact {
 	width: 100%;
-	height: 100%;
-	background-color: white;
+	min-height: 100%;
+	overflow: hidden;
 	.contact-row {
 			text-align: center;
 	}
 }
-
-// .spacer {
-// 	height: 64px;
-// }
 
 .contact {
 	font-size: 3vw;
 	margin: 0;
 	margin-top: 10px;
 	padding: 0;
-	@media screen and (max-width: 500px) {
-		display: none;
-	}
 }
+
+p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h4 {
+	margin: 0 0 10px;
+	padding: 0;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+// img {
+// 	max-height: 30vw;
+// 	@media screen and (max-width: 500px) {
+// 		max-height: 35vh;
+// 	}
+// }

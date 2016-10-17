@@ -1,43 +1,74 @@
+// Hides navbar
+var previousScroll = 200,
+headerOrgOffset = $('nav').height();
 
-// Collapsable navbar
-$(document).ready(function(){
+$('nav').height($('nav').height());
+
+$(window).scroll(function () {
+	var currentScroll = $(this).scrollTop();
+	if (currentScroll > headerOrgOffset) {
+		if (currentScroll > previousScroll) {
+			$('nav').fadeOut();
+		} else {
+			$('nav').fadeIn();
+		}
+	}
+	previousScroll = currentScroll;
+});
+
+
+$(document).ready(function() {
+	// Collapsable navbar code
 	$('.button-collapse').sideNav({
-    edge: 'left',
-    closeOnClick: true,
+		edge: 'left',
+		closeOnClick: true,
 	});
-});
 
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 3;
-var navbarHeight = $('nav').outerHeight();
+	// Shows thumbnails of all projects-details
+	$(".html-cssss").click(function() {
+		$(".project-thumbnail").show();
+		$(".projects").hide();
+	});
 
-$(window).scroll(function(event){
-    didScroll = true;
-});
+  $('.thumbnail-item').click(function() {
+    $('.project-thumbnail').hide();
 
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 350);
+    $thumbnail_item = jQuery(this);
 
-function hasScrolled() {
-    var st = $(this).scrollTop();
+    var thumbnail_item_id = parseInt($thumbnail_item.attr('id').replace('thumbnail', ''), 10);
 
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
+    var $projects = $('.projects');
+    $projects.each(function() {
 
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('nav').removeClass('nav-down').addClass('nav-up');
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('nav').removeClass('nav-up').addClass('nav-down');
+      $div = jQuery(this);
+      var div_id = parseInt($div.attr('id').replace('project', ''), 10);
+
+      $div.fadeOut(500, function() {
+        if (div_id === thumbnail_item_id) {
+          var $selectedDiv = $div;
+          $selectedDiv.fadeIn(500);
         }
-    }
-    lastScrollTop = st;
-};
+      });
+    });
+  });
+
+
+$('.list').click(function(){
+    $list = jQuery(this);
+    var list_id = parseInt($list.attr('id').replace('list', ''), 10);
+    var $projects = $('.projects');
+
+    $projects.each(function(){
+      $div = jQuery(this);
+      var div_id = parseInt($div.attr('id').replace('project', ''), 10);
+
+      $div.hide().promise().done(function(){
+        if (div_id === list_id) {
+          var $selectedDiv = jQuery(this);
+          $selectedDiv.fadeIn(500);
+        }
+    });
+  });
+});
+  event.preventDefault();
+});
