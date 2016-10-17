@@ -54,6 +54,7 @@ $(document).ready(function() {
 
 
 $('.list').click(function(){
+  $('.project-thumbnail').hide()
     $list = jQuery(this);
     var list_id = parseInt($list.attr('id').replace('list', ''), 10);
     var $projects = $('.projects');

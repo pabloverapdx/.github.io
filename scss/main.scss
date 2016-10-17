@@ -35,6 +35,21 @@ nav {
 	background-color: black;
 }
 
+.my_info {
+	margin-top: 18vh;
+}
+
+.my_name {
+	width: 40vh;
+	margin-left: 26vw;
+	font-weight: bolder;
+	font-weight: 50vw;
+}
+
+.designer {
+	margin-left: 26vw;
+}
+
 //projects-details Section
 .html-css {
 	padding-top: 74px;
@@ -42,6 +57,9 @@ nav {
 	min-height: 100vh;
 	// background-color: #4450FF;
 	overflow: hidden;
+	@media screen and (max-width: 500px) {
+		padding-top: 10px;
+	}
 }
 
 .project-details {
@@ -67,6 +85,9 @@ nav {
 	padding-top: 74px;
 	// background-color: #37ADFF;
 	overflow: hidden;
+	@media screen and (max-width: 500px) {
+		padding-top: 10px;
+	}
 }
 
 // Contact Section
