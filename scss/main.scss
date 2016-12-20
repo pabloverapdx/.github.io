@@ -1,7 +1,7 @@
-html, body {
+body {
 	// width: 100vw;
 	height: 100vh;
-	background-color: white;
+	background-color: #E5FF85;
 }
 
 nav {
@@ -15,118 +15,87 @@ nav {
 	}
 }
 
+.sidebar {
+	margin: 0;
+	padding: 0;
+	height: 80vh;
+	@media screen and (max-width: 990px) {
+		height: auto;
+	}
+}
+
+li {
+	font-size: 16px;
+	font-weight: bold;
+}
+.sidebar p:hover {
+	background-color: #7BF4FF;
+}
+
+.sidebar p {
+	font-weight: bold;
+}
+
+nav ul li:hover {
+   background-color: #7BF4FF;
+}
+
+.sidebar ul li:nth-child(odd):hover {
+	background-color: #C7FAFF;
+}
+
+.sidebar ul li:nth-child(even):hover {
+	background-color: #6EA7FF;
+}
+
+// .row {
+// 	border: 1px solid blue;
+// }
+//
+// .col {
+// 	border: 1px solid magenta;
+// }
 .nav-up {
   top: -64px;
 }
 
-.logo {
-	max-width: 20%;
-}
-// Main Section
-
-.main-section {
-	background-image: url('../img/sky.jpeg');
-  background-position: right;
-  background-size: cover;
-  // background-repeat: no-repeat;
-	// opacity: 0.9;
-	height: 100vh;
-	width: 100%;
-	background-color: black;
-}
-
-.my_info {
-	margin-top: 18vh;
-}
-
-.my_name {
-	width: 40vh;
-	margin-left: 26vw;
-	font-weight: bolder;
-	font-weight: 50vw;
-}
-
-.designer {
-	margin-left: 26vw;
-}
-
 //projects-details Section
 .html-css {
-	padding-top: 74px;
-	width: 100%;
-	min-height: 100vh;
+	padding-top: 3vh;
+	// width: 100%;
+	// min-height: 100vh;
 	// background-color: #4450FF;
-	overflow: hidden;
-	@media screen and (max-width: 500px) {
-		padding-top: 10px;
-	}
+	// overflow: hidden;
+	// @media screen and (max-width: 500px) {
+		// padding-top: 10px;
+	// }
 }
 
 .project-details {
-	max-width: 60%;
+	max-width: 85%;
 	height: auto;
 	@media screen and (max-width: 500px) {
 		max-width: 100%;
 	}
 }
 
-#project1, #project2 {
+#project1, #project2, #project3, #project4, #project5, #project6 {
 	display: none;
 }
 
-.thumbnail-item {
-	margin-bottom: 5px;
-}
-// Design Section
 
-.designs {
-	width: 100%;
-	min-height: 100vh;
-	padding-top: 74px;
-	// background-color: #37ADFF;
-	overflow: hidden;
-	@media screen and (max-width: 500px) {
-		padding-top: 10px;
-	}
-}
-
-// Contact Section
-
-.contact {
-	width: 100%;
-	min-height: 100%;
-	overflow: hidden;
-	.contact-row {
-			text-align: center;
-	}
-}
-
-.contact {
-	font-size: 3vw;
-	margin: 0;
-	margin-top: 10px;
-	padding: 0;
-}
-
-p {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-h4 {
-	margin: 0 0 10px;
-	padding: 0;
-	font-weight: 600;
-	letter-spacing: 2px;
-}
+// p {
+// 	margin: 0;
+// 	padding: 0;
+// 	text-align: center;
+// }
 
 span {
-	font-size: 10vh;
+	display: block;
+	position: relative;
+	top: 25%;
+	margin: 5px;
+	height: 5px;
+	width: 30px;
+	background-color: black;
 }
-// img {
-// 	max-height: 30vw;
-// 	@media screen and (max-width: 500px) {
-// 		max-height: 35vh;
-// 	}
-// }
