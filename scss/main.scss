@@ -1,15 +1,19 @@
-body {
+@import "contact";
+
+.html-css {
 	// width: 100vw;
+	// height: 100vh;
+	// background-color: #E5FF85;
 	height: 100vh;
-	background-color: #E5FF85;
+	background-color: #FFFFFF;
 }
 
 nav {
+	background-color: #E5FF85;
 	height: 64px;
 	position: fixed;
 	top: 0;
 	transition: top 2.3s ease-in-out;
-	background-color: white;
 	.nav-wrapper a {
 		 color: black;
 	}
@@ -48,16 +52,6 @@ nav ul li:hover {
 	background-color: #6EA7FF;
 }
 
-// .row {
-// 	border: 1px solid blue;
-// }
-//
-// .col {
-// 	border: 1px solid magenta;
-// }
-.nav-up {
-  top: -64px;
-}
 
 //projects-details Section
 .html-css {
@@ -74,6 +68,7 @@ nav ul li:hover {
 .project-details {
 	max-width: 85%;
 	height: auto;
+	margin-bottom: 1%;
 	@media screen and (max-width: 500px) {
 		max-width: 100%;
 	}
@@ -83,13 +78,6 @@ nav ul li:hover {
 	display: none;
 }
 
-
-// p {
-// 	margin: 0;
-// 	padding: 0;
-// 	text-align: center;
-// }
-
 span {
 	display: block;
 	position: relative;
@@ -98,4 +86,8 @@ span {
 	height: 5px;
 	width: 30px;
 	background-color: black;
+}
+
+.technology-used {
+	// border: 1px solid red;
 }

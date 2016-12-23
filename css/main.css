@@ -1,13 +1,17 @@
-body {
+.contact-page {
+  height: 91vh;
+  background-color: #FFF092; }
+
+.html-css {
   height: 100vh;
-  background-color: #E5FF85; }
+  background-color: #FFFFFF; }
 
 nav {
+  background-color: #E5FF85;
   height: 64px;
   position: fixed;
   top: 0;
-  transition: top 2.3s ease-in-out;
-  background-color: white; }
+  transition: top 2.3s ease-in-out; }
   nav .nav-wrapper a {
     color: black; }
 
@@ -38,15 +42,13 @@ nav ul li:hover {
 .sidebar ul li:nth-child(even):hover {
   background-color: #6EA7FF; }
 
-.nav-up {
-  top: -64px; }
-
 .html-css {
   padding-top: 3vh; }
 
 .project-details {
   max-width: 85%;
-  height: auto; }
+  height: auto;
+  margin-bottom: 1%; }
   @media screen and (max-width: 500px) {
     .project-details {
       max-width: 100%; } }
