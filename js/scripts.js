@@ -1,20 +1,20 @@
 // Hides navbar
-var previousScroll = 200,
-headerOrgOffset = $('nav').height();
-
-$('nav').height($('nav').height());
-
-$(window).scroll(function () {
-	var currentScroll = $(this).scrollTop();
-	if (currentScroll > headerOrgOffset) {
-		if (currentScroll > previousScroll) {
-			$('nav').fadeOut();
-		} else {
-			$('nav').fadeIn();
-		}
-	}
-	previousScroll = currentScroll;
-});
+// var previousScroll = 200,
+// headerOrgOffset = $('nav').height();
+//
+// $('nav').height($('nav').height());
+//
+// $(window).scroll(function () {
+// 	var currentScroll = $(this).scrollTop();
+// 	if (currentScroll > headerOrgOffset) {
+// 		if (currentScroll > previousScroll) {
+// 			$('nav').fadeOut();
+// 		} else {
+// 			$('nav').fadeIn();
+// 		}
+// 	}
+// 	previousScroll = currentScroll;
+// });
 
 
 $(document).ready(function() {
