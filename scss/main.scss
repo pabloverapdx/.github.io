@@ -67,8 +67,6 @@ nav ul li:hover {
 
 .project-details {
 	border: 1px solid magenta;
-	display: block;
-	margin: 0 auto;
 	max-width: 85%;
 	height: auto;
 	margin-bottom: 1%;
@@ -77,13 +75,6 @@ nav ul li:hover {
 	}
 }
 
-.projects {
-	border: 1px solid blue;
-}
-
-.sidebar {
-	border: 1px solid red;
-}
 #project1, #project2, #project3, #project4, #project5, #project6 {
 	display: none;
 }
@@ -96,8 +87,4 @@ span {
 	height: 5px;
 	width: 30px;
 	background-color: black;
-}
-
-.technology-used {
-	// border: 1px solid red;
 }
