@@ -2,18 +2,20 @@
   height: 91vh;
   background-color: #FFF092; }
 
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url("../fonts/ProximaNova-Semibold.otf"); }
 .html-css {
   height: 100vh;
   background-color: #FFFFFF; }
 
 nav {
-  background-color: #E5FF85;
-  height: 64px;
-  position: fixed;
-  top: 0;
-  transition: top 2.3s ease-in-out; }
+  background-color: #FFFFFF;
+  height: 64px; }
   nav .nav-wrapper a {
-    color: black; }
+    color: black;
+    font-family: "ProximaNova-Semibold", sans-serif;
+    font-size: 20px; }
 
 .sidebar {
   margin: 0;
@@ -23,9 +25,15 @@ nav {
     .sidebar {
       height: auto; } }
 
+.brand-logo {
+  margin-left: 15px; }
+  @media screen and (max-width: 500px) {
+    .brand-logo {
+      margin-left: 30px; } }
+
 li {
-  font-size: 16px;
-  font-weight: bold; }
+  font-family: "ProximaNova-Semibold", sans-serif;
+  font-size: 2vw; }
 
 .sidebar p:hover {
   background-color: #7BF4FF; }
@@ -46,7 +54,6 @@ nav ul li:hover {
   padding-top: 3vh; }
 
 .project-details {
-  border: 1px solid magenta;
   max-width: 85%;
   height: auto;
   margin-bottom: 1%; }
