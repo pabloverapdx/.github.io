@@ -32,8 +32,11 @@ nav {
       margin-left: 30px; } }
 
 li {
-  font-family: "ProximaNova-Semibold", sans-serif;
-  font-size: 2vw; }
+  font-size: 24px;
+  font-family: "ProximaNova-Semibold", sans-serif; }
+  @media screen and (max-width: 500px) {
+    li {
+      font-size: 16px; } }
 
 .sidebar p:hover {
   background-color: #7BF4FF; }
