@@ -1,3 +1,33 @@
+.wrapper p {
+  border: 1px solid magenta;
+  font-family: "ProximaNova-Extrabold", sans-serif;
+  font-size: 24vw;
+  line-height: 24vw;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  min-height: 90.5vh; }
+
+p {
+  margin: 0px;
+  padding: 0px; }
+
+.h:hover {
+  color: red; }
+
+.e:hover {
+  color: blue; }
+
+.ll:hover {
+  color: yellow; }
+
+.o:hover {
+  color: green; }
+
+.wrapper {
+  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
+  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%); }
+
 @font-face {
   font-family: 'ProximaNova-Extrabold';
   src: url("../fonts/ProximaNova-Extrabold.otf"); }
@@ -13,7 +43,7 @@ nav {
   nav .nav-wrapper a {
     color: black;
     font-family: "ProximaNova-Extrabold", sans-serif;
-    font-size: 20px; }
+    font-size: 22px; }
 
 .sidebar {
   margin: 0;
@@ -81,7 +111,7 @@ nav ul li:hover {
 #project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
   display: none; }
 
-span {
+.boo {
   display: block;
   position: relative;
   top: 25%;
