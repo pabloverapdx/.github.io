@@ -1,14 +1,17 @@
 @import "contact";
 @font-face {
-  font-family: 'ProximaNova-Semibold';
-  src: url('../fonts/ProximaNova-Semibold.otf');
+  font-family: 'ProximaNova-Extrabold';
+  src: url('../fonts/ProximaNova-Extrabold.otf');
 }
 
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.otf');
+}
+
+
 .html-css {
-	// width: 100vw;
 	// height: 100vh;
-	// background-color: #E5FF85;
-	height: 100vh;
 	background-color: #FFFFFF;
 }
 
@@ -18,10 +21,9 @@ nav {
 	// position: fixed;
 	// top: 0;
 	// transition: top 2.3s ease-in-out;
-	// border: 0px;
 	.nav-wrapper a {
 		 color: black;
-		 font-family: "ProximaNova-Semibold", sans-serif;
+		 font-family: "ProximaNova-Extrabold", sans-serif;
 		 font-size: 20px;
 	}
 }
@@ -29,7 +31,7 @@ nav {
 .sidebar {
 	margin: 0;
 	padding: 0;
-	height: 80vh;
+	height: 90vh;
 	@media screen and (max-width: 990px) {
 		height: auto;
 	}
@@ -44,10 +46,16 @@ nav {
 
 li {
 	font-size: 24px;
-	font-family: "ProximaNova-Semibold", sans-serif;
+	font-family: "ProximaNova-Extrabold", sans-serif;
 	@media screen and (max-width: 500px) {
 		font-size: 16px;
 	}
+}
+
+p {
+  // font-family: 'ProximaNova-Regular';
+  font-size: 16px;
+  letter-spacing: 0.2px;
 }
 
 .sidebar p:hover {
@@ -72,12 +80,15 @@ nav ul li:hover {
 
 
 //projects-details Section
-.html-css {
-	padding-top: 3vh;
+.thumbnail-wrapper {
+	padding-top: 1vh;
+  @media screen and (max-width: 500px) {
+    padding-top: 0;
+  }
 }
 
 .project-details {
-	max-width: 85%;
+	max-width: 80%;
 	height: auto;
 	margin-bottom: 1%;
 	@media screen and (max-width: 500px) {
@@ -85,7 +96,17 @@ nav ul li:hover {
 	}
 }
 
-#project1, #project2, #project3, #project4, #project5, #project6 {
+.vinyl-project-cover {
+  display: inline;
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 1%;
+  @media screen and (max-width: 500px) {
+    max-width: 100%;
+  }
+}
+
+#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
 	display: none;
 }
 
@@ -97,4 +118,11 @@ span {
 	height: 5px;
 	width: 30px;
 	background-color: black;
+}
+
+.vinyl-project-cover:nth-child(odd) {
+  margin-left: 3%;
+  @media screen and (max-width: 500px) {
+    margin-left: 0;
+  }
 }

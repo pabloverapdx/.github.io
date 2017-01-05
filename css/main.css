@@ -1,12 +1,10 @@
-.contact-page {
-  height: 91vh;
-  background-color: #FFF092; }
-
 @font-face {
-  font-family: 'ProximaNova-Semibold';
-  src: url("../fonts/ProximaNova-Semibold.otf"); }
+  font-family: 'ProximaNova-Extrabold';
+  src: url("../fonts/ProximaNova-Extrabold.otf"); }
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url("../fonts/ProximaNova-Regular.otf"); }
 .html-css {
-  height: 100vh;
   background-color: #FFFFFF; }
 
 nav {
@@ -14,13 +12,13 @@ nav {
   height: 64px; }
   nav .nav-wrapper a {
     color: black;
-    font-family: "ProximaNova-Semibold", sans-serif;
+    font-family: "ProximaNova-Extrabold", sans-serif;
     font-size: 20px; }
 
 .sidebar {
   margin: 0;
   padding: 0;
-  height: 80vh; }
+  height: 90vh; }
   @media screen and (max-width: 990px) {
     .sidebar {
       height: auto; } }
@@ -33,10 +31,14 @@ nav {
 
 li {
   font-size: 24px;
-  font-family: "ProximaNova-Semibold", sans-serif; }
+  font-family: "ProximaNova-Extrabold", sans-serif; }
   @media screen and (max-width: 500px) {
     li {
       font-size: 16px; } }
+
+p {
+  font-size: 16px;
+  letter-spacing: 0.2px; }
 
 .sidebar p:hover {
   background-color: #7BF4FF; }
@@ -53,18 +55,30 @@ nav ul li:hover {
 .sidebar ul li:nth-child(even):hover {
   background-color: #6EA7FF; }
 
-.html-css {
-  padding-top: 3vh; }
+.thumbnail-wrapper {
+  padding-top: 1vh; }
+  @media screen and (max-width: 500px) {
+    .thumbnail-wrapper {
+      padding-top: 0; } }
 
 .project-details {
-  max-width: 85%;
+  max-width: 80%;
   height: auto;
   margin-bottom: 1%; }
   @media screen and (max-width: 500px) {
     .project-details {
       max-width: 100%; } }
 
-#project1, #project2, #project3, #project4, #project5, #project6 {
+.vinyl-project-cover {
+  display: inline;
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 1%; }
+  @media screen and (max-width: 500px) {
+    .vinyl-project-cover {
+      max-width: 100%; } }
+
+#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
   display: none; }
 
 span {
@@ -75,5 +89,11 @@ span {
   height: 5px;
   width: 30px;
   background-color: black; }
+
+.vinyl-project-cover:nth-child(odd) {
+  margin-left: 3%; }
+  @media screen and (max-width: 500px) {
+    .vinyl-project-cover:nth-child(odd) {
+      margin-left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
