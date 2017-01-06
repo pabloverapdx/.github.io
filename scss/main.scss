@@ -16,17 +16,22 @@
 }
 
 nav {
-	background-color: #FFFFFF;
+  background-color: #FFFFFF;
 	height: 64px;
-	// position: fixed;
-	// top: 0;
-	// transition: top 2.3s ease-in-out;
 	.nav-wrapper a {
-		 color: black;
-		 font-family: "ProximaNova-Extrabold", sans-serif;
-		 font-size: 22px;
-	}
+		color: black;
+		font-family: "ProximaNova-Extrabold", sans-serif;
+		font-size: 22px;
+  }
 }
+
+nav {
+  @media screen and (max-width: 500px) {
+    height: 20px;
+  }
+}
+
+
 
 .sidebar {
 	margin: 0;
@@ -53,7 +58,6 @@ li {
 }
 
 p {
-  // font-family: 'ProximaNova-Regular';
   font-size: 16px;
   letter-spacing: 0.2px;
 }
