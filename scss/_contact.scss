@@ -12,13 +12,50 @@
   margin: 0px;
   padding: 0px;
 }
-
 .contact-text {
-  border: 1px solid blue;
+  // border: 1px solid blue;
+  font-family: "ProximaNovaCond-Regular", sans-serif;
   width: 50%;
+  font-size: 16px;
+  // font-weight: bold;
   @media screen and (max-width: 667px) {
     width: 100%;
   }
+}
+//
+// p {
+//   font-family: 'ProximaNova-Regular';
+//   font-size: 20px;
+//   letter-spacing: 0.2px;
+//   font-weight: 500;
+// }
+
+
+.buttons {
+  margin: 0;
+  padding: 0;
+  width: 49%;
+  @media screen and (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.email, .github, .linkedin, .portfolio {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  @media screen and (max-width: 500px) {
+      width: 24%;
+      margin: 0 auto;
+  }
+}
+
+a {
+  color: grey;
 }
 
 .wrapper {
@@ -26,7 +63,7 @@
   // Compatability with Safari and IE.
   background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
   @media screen and (max-width: 500px) {
-    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 60%, #8DFAF1 40%, #8DFAF1 100%);
     height: 80vh;
   }
 }

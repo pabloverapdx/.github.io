@@ -6,12 +6,11 @@
 
 @font-face {
   font-family: 'ProximaNova-Regular';
-  src: url('../fonts/ProximaNova-Regular.otf');
+  src: url('../fonts/ProximaNovaCond-Regular.otf');
 }
 
 
 .html-css {
-	// height: 100vh;
 	background-color: #FFFFFF;
 }
 
@@ -23,6 +22,11 @@ nav {
 		font-family: "ProximaNova-Extrabold", sans-serif;
 		font-size: 22px;
   }
+}
+
+h5 {
+  font-family: "ProximaNova-Extrabold", sans-serif;
+	font-size: 22px;
 }
 
 nav {
@@ -53,17 +57,12 @@ li {
 	font-size: 24px;
 	font-family: "ProximaNova-Extrabold", sans-serif;
 	@media screen and (max-width: 500px) {
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 
-p {
-  font-size: 16px;
-  letter-spacing: 0.2px;
-}
-
 .sidebar p:hover {
-	background-color: #7BF4FF;
+	background-color: #8DFAF1;
 }
 
 .sidebar p {
@@ -71,7 +70,7 @@ p {
 }
 
 nav ul li:hover {
-   background-color: #7BF4FF;
+   background-color: #8DFAF1;
 }
 
 .sidebar ul li:nth-child(odd):hover {
@@ -114,7 +113,7 @@ nav ul li:hover {
 	display: none;
 }
 
-.boo {
+.menu {
 	display: block;
 	position: relative;
 	top: 25%;
