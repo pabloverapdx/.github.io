@@ -1,5 +1,16 @@
+html, body {
+  height: 100%; }
+
 .wrapper {
-  height: 91.3vh; }
+  width: 100%;
+  min-height: 100%;
+  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
+  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%); }
+  @media screen and (max-width: 568px) {
+    .wrapper {
+      background: linear-gradient(to bottom, #FFFFFF 15%, #FFFFFF 15%, #8DFAF1 20%, #8DFAF1 80%);
+      background: -webkit-linear-gradient(to bottom, #FFFFFF 15%, #FFFFFF 15%, #8DFAF1 20%, #8DFAF1 80%);
+      border: 1px solid red; } }
 
 .hello {
   font-family: "ProximaNova-Extrabold", sans-serif;
@@ -12,8 +23,9 @@
 .contact-text {
   font-family: "ProximaNovaCond-Regular", sans-serif;
   width: 50%;
-  font-size: 16px; }
-  @media screen and (max-width: 667px) {
+  font-size: 16px;
+  padding: 0 6px; }
+  @media screen and (max-width: 568px) {
     .contact-text {
       width: 100%; } }
 
@@ -21,7 +33,7 @@
   margin: 0;
   padding: 0;
   width: 49%; }
-  @media screen and (min-width: 200px) and (max-width: 600px) {
+  @media screen and (max-width: 568px) {
     .buttons {
       width: 100%; } }
 
@@ -33,22 +45,14 @@
   text-align: center;
   color: grey;
   font-size: 20px; }
-  @media screen and (min-width: 200px) and (max-width: 600px) {
+  @media screen and (max-width: 568px) {
     .email, .github, .linkedin, .portfolio {
       width: 24%;
       margin: 0 auto;
       display: block; } }
 
-a {
+.wrapper a {
   color: grey; }
-
-.wrapper {
-  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
-  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%); }
-  @media screen and (min-width: 200px) and (max-width: 600px) {
-    .wrapper {
-      background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 60%, #8DFAF1 40%, #8DFAF1 100%);
-      height: auto; } }
 
 @font-face {
   font-family: 'ProximaNova-Extrabold';
@@ -56,8 +60,12 @@ a {
 @font-face {
   font-family: 'ProximaNova-Regular';
   src: url("../fonts/ProximaNovaCond-Regular.otf"); }
+.front-navbar {
+  background-color: #8DFAF1; }
+
 .html-css {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  height: 100%; }
 
 nav {
   background-color: #FFFFFF;

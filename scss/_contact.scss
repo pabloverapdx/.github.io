@@ -1,7 +1,21 @@
+html, body {
+  height: 100%;
+}
+
 .wrapper {
-  // border: 1px solid magenta;
-  height: 91.3vh;
- }
+  width: 100%;
+  min-height: 100%;
+  // overflow: hidden;
+  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
+  // Compatability with Safari and IE.
+  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
+  @media screen and (max-width: 568px) {
+    background: linear-gradient(to bottom, #FFFFFF 15%, #FFFFFF 15%, #8DFAF1 20%, #8DFAF1 80%);
+    // Compatability with Safari and IE.
+    background: -webkit-linear-gradient(to bottom, #FFFFFF 15%, #FFFFFF 15%, #8DFAF1 20%, #8DFAF1 80%);
+    border: 1px solid red;
+  }
+}
 
 .hello {
   // border: 1px solid green;
@@ -12,13 +26,15 @@
   margin: 0px;
   padding: 0px;
 }
+
 .contact-text {
   // border: 1px solid blue;
   font-family: "ProximaNovaCond-Regular", sans-serif;
   width: 50%;
   font-size: 16px;
+  padding: 0 6px;
   // font-weight: bold;
-  @media screen and (max-width: 667px) {
+  @media screen and (max-width: 568px) {
     width: 100%;
   }
 }
@@ -35,7 +51,7 @@
   margin: 0;
   padding: 0;
   width: 49%;
-  @media screen and (min-width: 200px) and (max-width: 600px) {
+  @media screen and (max-width: 568px) {
     width: 100%;
   }
 }
@@ -48,28 +64,13 @@
   text-align: center;
   color: grey;
   font-size: 20px;
-  @media screen and (min-width: 200px) and (max-width: 600px) {
+  @media screen and (max-width: 568px) {
       width: 24%;
       margin: 0 auto;
       display: block;
   }
 }
 
-a {
+.wrapper a {
   color: grey;
-}
-
-// html {
-//   @media screen and (max-width: 567px) {
-//    height: 100vh;
-// }
-// }
-.wrapper {
-  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
-  // Compatability with Safari and IE.
-  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
-  @media screen and (min-width: 200px) and (max-width: 600px) {
-    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 60%, #8DFAF1 40%, #8DFAF1 100%);
-    height: auto;
-  }
 }
