@@ -86,7 +86,7 @@ h5 {
 .sidebar {
   margin: 0;
   padding: 0;
-  height: 90vh; }
+  height: 80vh; }
   @media screen and (max-width: 990px) {
     .sidebar {
       height: auto; } }
