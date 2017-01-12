@@ -53,6 +53,12 @@ html, body {
 .wrapper a {
   color: grey; }
 
+.green-hover:hover {
+  color: #8DFAF1; }
+
+.white-hover:hover {
+  color: #FFFFFF; }
+
 @font-face {
   font-family: 'ProximaNova-Extrabold';
   src: url("../fonts/ProximaNova-Extrabold.otf"); }
