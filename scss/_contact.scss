@@ -63,7 +63,7 @@ html, body {
   text-align: center;
   color: grey;
   font-size: 20px;
-  @media screen and (max-width: 568px) {
+  @media screen and (max-width: 700px) {
       width: 24%;
       margin: 0 auto;
       display: block;
@@ -71,7 +71,8 @@ html, body {
 }
 
 .wrapper a {
-  color: grey;
+  color: #000000;
+  font-family: "ProximaNova-Extrabold", sans-serif;
 }
 
 .green-hover:hover {
@@ -80,4 +81,7 @@ html, body {
 
 .white-hover:hover {
   color: #FFFFFF;
+  @media screen and (max-width: 568px) {
+    color: #82FDAD;
+  }
 }
