@@ -10,10 +10,9 @@ html, body {
   // Compatability with Safari and IE.
   background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
   @media screen and (max-width: 568px) {
-    background: linear-gradient(to bottom, #FFFFFF 15%, #FFFFFF 15%, #8DFAF1 20%, #8DFAF1 80%);
+    background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%);
     // Compatability with Safari and IE.
-    background: -webkit-linear-gradient(to bottom, #FFFFFF 15%, #FFFFFF 15%, #8DFAF1 20%, #8DFAF1 80%);
-    border: 1px solid red;
+    background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%);
   }
 }
 

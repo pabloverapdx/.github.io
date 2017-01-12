@@ -8,9 +8,8 @@ html, body {
   background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%); }
   @media screen and (max-width: 568px) {
     .wrapper {
-      background: linear-gradient(to bottom, #FFFFFF 15%, #FFFFFF 15%, #8DFAF1 20%, #8DFAF1 80%);
-      background: -webkit-linear-gradient(to bottom, #FFFFFF 15%, #FFFFFF 15%, #8DFAF1 20%, #8DFAF1 80%);
-      border: 1px solid red; } }
+      background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%);
+      background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%); } }
 
 .hello {
   font-family: "ProximaNova-Extrabold", sans-serif;
@@ -89,13 +88,11 @@ h5 {
   height: 80vh; }
   @media screen and (max-width: 990px) {
     .sidebar {
-      height: auto; } }
+      height: auto;
+      margin-top: -25px; } }
 
 .brand-logo {
   margin-left: 15px; }
-  @media screen and (max-width: 500px) {
-    .brand-logo {
-      margin-left: 30px; } }
 
 li {
   font-size: 24px;
@@ -150,8 +147,8 @@ nav ul li:hover {
   position: relative;
   top: 25%;
   margin: 5px;
-  height: 5px;
-  width: 30px;
+  height: 4px;
+  width: 20px;
   background-color: black; }
 
 .vinyl-project-cover:nth-child(odd) {

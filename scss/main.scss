@@ -47,14 +47,15 @@ nav {
 	height: 80vh;
 	@media screen and (max-width: 990px) {
 		height: auto;
+    margin-top: -25px;
 	}
 }
 
 .brand-logo {
 	margin-left: 15px;
-	@media screen and (max-width: 500px) {
-		margin-left: 30px;
-	}
+	// @media screen and (max-width: 500px) {
+	// 	margin-left: 30px;
+	// }
 }
 
 li {
@@ -122,8 +123,8 @@ nav ul li:hover {
 	position: relative;
 	top: 25%;
 	margin: 5px;
-	height: 5px;
-	width: 30px;
+	height: 4px;
+	width: 20px;
 	background-color: black;
 }
 
