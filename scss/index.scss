@@ -1,3 +1,5 @@
+@import "projects";
+
 html, body {
   height: 100%;
 }
@@ -17,34 +19,26 @@ html, body {
 }
 
 .hello {
-  // border: 1px solid green;
   font-family: "ProximaNova-Extrabold", sans-serif;
   font-size: 24vw;
   line-height: 24vw;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
+  margin-top: -5px;
 }
 
 .contact-text {
-  // border: 1px solid blue;
   font-family: "ProximaNovaCond-Regular", sans-serif;
   width: 50%;
   font-size: 16px;
   padding: 0 6px;
-  // font-weight: bold;
+  // margin: 0px;
   @media screen and (max-width: 568px) {
     width: 100%;
   }
 }
-//
-// p {
-//   font-family: 'ProximaNova-Regular';
-//   font-size: 20px;
-//   letter-spacing: 0.2px;
-//   font-weight: 500;
-// }
 
+a.button-collapse {
+  width: 0px;
+}
 
 .buttons {
   margin: 0;
