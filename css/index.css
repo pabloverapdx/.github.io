@@ -117,11 +117,11 @@ html, body {
       background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%);
       background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%); } }
 
-.hello {
+.hello-text {
+  text-align: center;
   font-family: "ProximaNova-Extrabold", sans-serif;
   font-size: 24vw;
-  line-height: 24vw;
-  margin-top: -5px; }
+  line-height: 24vw; }
 
 .contact-text {
   font-family: "ProximaNovaCond-Regular", sans-serif;
