@@ -34,7 +34,7 @@ h5 {
   @media screen and (max-width: 990px) {
     .sidebar {
       height: auto;
-      margin-top: -25px; } }
+      margin-top: -5px; } }
 
 .brand-logo {
   margin-left: 15px; }
