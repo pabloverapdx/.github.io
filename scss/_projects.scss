@@ -8,6 +8,11 @@
   src: url('../fonts/ProximaNovaCond-Regular.otf');
 }
 
+p {
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+}
+
 .front-navbar {
   background-color: #8DFAF1;
 }
@@ -108,7 +113,7 @@ nav ul li:hover {
   }
 }
 
-#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
+#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8, #project9 {
 	display: none;
 }
 
@@ -124,12 +129,13 @@ nav ul li:hover {
   border-radius: 3px;
 }
 
-.first {
-  margin-top: 15px;
-}
+// .first {
+//   margin-top: 15px;
+// }
 
-.vinyl-project-cover:nth-child(odd) {
-  margin-left: 3%;
+.vinyl-project-cover {
+  margin-left: 1%;
+  margin-right: 1%;
   @media screen and (max-width: 500px) {
     margin-left: 0;
   }
