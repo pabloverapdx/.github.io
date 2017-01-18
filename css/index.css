@@ -6,7 +6,8 @@
   src: url("../fonts/ProximaNovaCond-Regular.otf"); }
 p {
   font-family: "ProximaNova-Regular", sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  letter-spacing: 1px; }
 
 .front-navbar {
   background-color: #8DFAF1; }
