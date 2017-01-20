@@ -22,8 +22,7 @@ html, body {
   text-align: center;
   font-family: "ProximaNova-Extrabold", sans-serif;
   font-size: 24vw;
-  line-height: 24vw;
-  // margin-top: -5px;
+  line-height: 22vw;
 }
 
 .contact-text {
@@ -31,7 +30,6 @@ html, body {
   width: 50%;
   font-size: 16px;
   padding: 0 6px;
-  // margin: 0px;
   @media screen and (max-width: 568px) {
     width: 100%;
   }
@@ -56,7 +54,6 @@ a.button-collapse {
   display: inline-block;
   width: 24%;
   text-align: center;
-  color: grey;
   font-size: 20px;
   @media screen and (max-width: 700px) {
       width: 24%;

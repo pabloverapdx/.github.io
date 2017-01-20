@@ -127,7 +127,7 @@ html, body {
   text-align: center;
   font-family: "ProximaNova-Extrabold", sans-serif;
   font-size: 24vw;
-  line-height: 24vw; }
+  line-height: 22vw; }
 
 .contact-text {
   font-family: "ProximaNovaCond-Regular", sans-serif;
@@ -155,7 +155,6 @@ a.button-collapse {
   display: inline-block;
   width: 24%;
   text-align: center;
-  color: grey;
   font-size: 20px; }
   @media screen and (max-width: 700px) {
     .email, .github, .linkedin, .portfolio {
