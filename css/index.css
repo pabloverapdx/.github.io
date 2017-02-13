@@ -10,7 +10,7 @@ p {
   letter-spacing: 1px; }
 
 .front-navbar {
-  background-color: #8DFAF1; }
+  background-color: #C7FAFF; }
 
 .html-css {
   background-color: #FFFFFF;
@@ -52,13 +52,13 @@ li {
       font-size: 18px; } }
 
 .sidebar p:hover {
-  background-color: #8DFAF1; }
+  background-color: #C7FAFF; }
 
 .sidebar p {
   font-weight: bold; }
 
 nav ul li:hover {
-  background-color: #8DFAF1; }
+  background-color: #C7FAFF; }
 
 .sidebar ul li:nth-child(odd):hover {
   background-color: #C7FAFF; }
@@ -143,12 +143,12 @@ html, body {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
-  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%); }
+  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #C7FAFF 50%, #C7FAFF 100%);
+  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #C7FAFF 50%, #C7FAFF 100%); }
   @media screen and (max-width: 568px) {
     .wrapper {
-      background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%);
-      background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%); } }
+      background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #C7FAFF 90%, #C7FAFF 10%);
+      background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #C7FAFF 90%, #C7FAFF 10%); } }
 
 .hello-text {
   text-align: center;
@@ -194,7 +194,7 @@ a.button-collapse {
   font-family: "ProximaNova-Extrabold", sans-serif; }
 
 .green-hover:hover {
-  color: #8DFAF1; }
+  color: #C7FAFF; }
 
 .white-hover:hover {
   color: #FFFFFF; }

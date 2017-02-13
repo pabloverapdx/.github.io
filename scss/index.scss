@@ -4,17 +4,19 @@ html, body {
   height: 100%;
 }
 
+// Old main color code was: #8DFAF1
+
 .wrapper {
   width: 100%;
   min-height: 100%;
   // overflow: hidden;
-  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
+  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #C7FAFF 50%, #C7FAFF 100%);
   // Compatability with Safari and IE.
-  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #8DFAF1 50%, #8DFAF1 100%);
+  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #C7FAFF 50%, #C7FAFF 100%);
   @media screen and (max-width: 568px) {
-    background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%);
+    background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #C7FAFF 90%, #C7FAFF 10%);
     // Compatability with Safari and IE.
-    background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #8DFAF1 90%, #8DFAF1 10%);
+    background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #C7FAFF 90%, #C7FAFF 10%);
   }
 }
 
@@ -68,7 +70,7 @@ a.button-collapse {
 }
 
 .green-hover:hover {
-  color: #8DFAF1;
+  color: #C7FAFF;
 }
 
 .white-hover:hover {
