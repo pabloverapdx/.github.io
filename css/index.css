@@ -9,9 +9,6 @@ p {
   font-size: 18px;
   letter-spacing: 1px; }
 
-.front-navbar {
-  background-color: #C7FAFF; }
-
 .html-css {
   background-color: #FFFFFF;
   height: 100%; }
@@ -51,14 +48,8 @@ li {
     li {
       font-size: 18px; } }
 
-.sidebar p:hover {
-  background-color: #C7FAFF; }
-
 .sidebar p {
   font-weight: bold; }
-
-nav ul li:hover {
-  background-color: #C7FAFF; }
 
 .sidebar ul li:nth-child(odd):hover {
   background-color: #C7FAFF; }
@@ -143,12 +134,15 @@ html, body {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #C7FAFF 50%, #C7FAFF 100%);
-  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #C7FAFF 50%, #C7FAFF 100%); }
+  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #82FDAD 50%, #82FDAD 100%);
+  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #82FDAD 50%, #82FDAD 100%); }
   @media screen and (max-width: 568px) {
     .wrapper {
-      background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #C7FAFF 90%, #C7FAFF 10%);
-      background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #C7FAFF 90%, #C7FAFF 10%); } }
+      background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #82FDAD 90%, #82FDAD 10%);
+      background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #82FDAD 90%, #82FDAD 10%); } }
+
+nav ul li:hover {
+  background-color: #82FDAD; }
 
 .hello-text {
   text-align: center;
@@ -194,7 +188,7 @@ a.button-collapse {
   font-family: "ProximaNova-Extrabold", sans-serif; }
 
 .green-hover:hover {
-  color: #C7FAFF; }
+  color: #82FDAD; }
 
 .white-hover:hover {
   color: #FFFFFF; }

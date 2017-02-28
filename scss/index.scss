@@ -5,19 +5,25 @@ html, body {
 }
 
 // Old main color code was: #8DFAF1
+$primary-color: #82FDAD;
+$header-link-color-on-hover: #82FDAD;
 
 .wrapper {
   width: 100%;
   min-height: 100%;
   // overflow: hidden;
-  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #C7FAFF 50%, #C7FAFF 100%);
+  background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, $primary-color 50%, $primary-color 100%);
   // Compatability with Safari and IE.
-  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #C7FAFF 50%, #C7FAFF 100%);
+  background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, $primary-color 50%, $primary-color 100%);
   @media screen and (max-width: 568px) {
-    background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #C7FAFF 90%, #C7FAFF 10%);
+    background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, $primary-color 90%, $primary-color 10%);
     // Compatability with Safari and IE.
-    background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, #C7FAFF 90%, #C7FAFF 10%);
+    background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, $primary-color 90%, $primary-color 10%);
   }
+}
+
+nav ul li:hover {
+   background-color: $header-link-color-on-hover;
 }
 
 .hello-text {
@@ -70,7 +76,7 @@ a.button-collapse {
 }
 
 .green-hover:hover {
-  color: #C7FAFF;
+  color: $primary-color;
 }
 
 .white-hover:hover {
