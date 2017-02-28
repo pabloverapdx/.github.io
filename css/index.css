@@ -150,6 +150,15 @@ nav ul li:hover {
   font-size: 24vw;
   line-height: 20vw; }
 
+.he-text {
+  color: #82FDAD; }
+
+.llo-text:hover {
+  color: #FFFFFF; }
+  @media screen and (max-width: 568px) {
+    .llo-text:hover {
+      color: #82FDAD; } }
+
 .contact-text {
   font-family: "ProximaNovaCond-Regular", sans-serif;
   width: 50%;
@@ -186,14 +195,5 @@ a.button-collapse {
 .wrapper a {
   color: #000000;
   font-family: "ProximaNova-Extrabold", sans-serif; }
-
-.green-hover:hover {
-  color: #82FDAD; }
-
-.white-hover:hover {
-  color: #FFFFFF; }
-  @media screen and (max-width: 568px) {
-    .white-hover:hover {
-      color: #82FDAD; } }
 
 /*# sourceMappingURL=index.css.map */

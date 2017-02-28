@@ -11,7 +11,6 @@ $header-link-color-on-hover: #82FDAD;
 .wrapper {
   width: 100%;
   min-height: 100%;
-  // overflow: hidden;
   background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, $primary-color 50%, $primary-color 100%);
   // Compatability with Safari and IE.
   background: -webkit-linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, $primary-color 50%, $primary-color 100%);
@@ -31,6 +30,17 @@ nav ul li:hover {
   font-family: "ProximaNova-Extrabold", sans-serif;
   font-size: 24vw;
   line-height: 20vw;
+}
+
+.he-text {
+  color: $primary-color
+}
+
+.llo-text:hover {
+  color: #FFFFFF;
+  @media screen and (max-width: 568px) {
+    color: #82FDAD;
+  }
 }
 
 .contact-text {
@@ -73,15 +83,4 @@ a.button-collapse {
 .wrapper a {
   color: #000000;
   font-family: "ProximaNova-Extrabold", sans-serif;
-}
-
-.green-hover:hover {
-  color: $primary-color;
-}
-
-.white-hover:hover {
-  color: #FFFFFF;
-  @media screen and (max-width: 568px) {
-    color: #82FDAD;
-  }
 }
