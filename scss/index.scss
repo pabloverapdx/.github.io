@@ -5,9 +5,9 @@ html, body {
   position: relative;
 }
 
-// Old main color code was: #8DFAF1
-$primary-color: #82FDAD;
-$header-link-color-on-hover: #82FDAD;
+// Old main color code was: #8DFAF1, then #82FDAD
+$primary-color: #9DFFBF;
+$header-link-color-on-hover: #9DFFBF;
 
 .wrapper {
   width: 100%;
@@ -40,7 +40,7 @@ nav ul li:hover {
 .llo-text:hover {
   color: #FFFFFF;
   @media screen and (max-width: 568px) {
-    color: #82FDAD;
+    color: #9DFFBF;
   }
 }
 
