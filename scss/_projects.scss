@@ -49,9 +49,9 @@ nav {
 	padding: 0;
 	height: 80vh;
 	@media screen and (max-width: 990px) {
+    margin-top: 25px;
 		height: auto;
-    margin-top: -5px;
-	}
+  }
 }
 
 .brand-logo {
@@ -73,11 +73,9 @@ li {
 .sidebar ul li:nth-child(odd):hover {
 	background-color: #C7FAFF;
 }
-
 .sidebar ul li:nth-child(even):hover {
-	background-color: #6EA7FF;
+  background-color: #6EA7FF;
 }
-
 
 //projects-details Section
 .thumbnail-wrapper {
