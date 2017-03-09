@@ -2,7 +2,6 @@
 
 html, body {
   height: 100%;
-  position: relative;
 }
 
 // Old main color code was: #8DFAF1, then #82FDAD
@@ -20,6 +19,10 @@ $header-link-color-on-hover: #9DFFBF;
     // Compatability with Safari and IE.
     background: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 50%, $primary-color 90%, $primary-color 10%);
   }
+}
+
+i {
+  margin-left: 10px;
 }
 
 nav ul li:hover {
