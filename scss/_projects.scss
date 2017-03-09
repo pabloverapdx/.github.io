@@ -8,16 +8,6 @@
   src: url('../fonts/ProximaNovaCond-Regular.otf');
 }
 
-p {
-  font-family: "ProximaNova-Regular", sans-serif;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-// .front-navbar {
-//   background-color: #8DFAF1;
-// }
-
 .html-css {
 	background-color: #FFFFFF;
   height: 100%;
@@ -92,6 +82,13 @@ li {
 	@media screen and (max-width: 500px) {
 		max-width: 100%;
 	}
+}
+
+ .projects p {
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  text-align: justify;
 }
 
 .vinyl-project-cover {
