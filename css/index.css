@@ -25,9 +25,9 @@ h5 {
   font-family: "ProximaNova-Extrabold", sans-serif;
   font-size: 22px; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 990px) {
   nav {
-    height: 20px; } }
+    height: 0px; } }
 
 .sidebar {
   margin: 0;
@@ -82,17 +82,6 @@ li {
 
 #project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8, #project9 {
   display: none; }
-
-.menu {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 3px;
-  top: 10px;
-  left: 10px;
-  position: relative;
-  background: #000000;
-  border-radius: 3px; }
 
 .vinyl-project-cover {
   margin-left: 1%;
@@ -159,13 +148,13 @@ nav ul li:hover {
     .llo-text:hover {
       color: #82FDAD; } }
 
-.contact-text {
+.biography-text {
   font-family: "ProximaNovaCond-Regular", sans-serif;
   width: 50%;
   font-size: 16px;
   padding: 0 6px; }
   @media screen and (max-width: 568px) {
-    .contact-text {
+    .biography-text {
       width: 100%; } }
 
 a.button-collapse {
