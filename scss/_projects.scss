@@ -10,7 +10,7 @@
 
 .html-css {
 	background-color: #FFFFFF;
-  height: 100%;
+  height: 100vh;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav {
 .sidebar {
 	margin: 0;
 	padding: 0;
-	height: 80vh;
+	height: 100vh;
 	@media screen and (max-width: 990px) {
     margin-top: 25px;
 		height: auto;
@@ -134,4 +134,8 @@ li {
 }
 .technology-used-project9 {
   color: #D4DD7A;
+}
+
+.logo-detail {
+  margin: 0 auto;
 }
